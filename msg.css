@@ -1,0 +1,18 @@
+div#msg {
+	width: 100%;
+	color: #000;
+	background-color: #fcf;
+
+	margin: 0.2em;
+	padding: 0.2em;
+	border: inset 2px #999;
+
+	line-height: 150%;
+	font-family: sans-serif;
+
+	display: none;
+}
+
+div#msg.shown {
+	display: block;
+}

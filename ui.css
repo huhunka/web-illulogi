@@ -1,0 +1,135 @@
+table#illulogi {
+	border-collapse: collapse;
+	table-layout: fixed;
+	font-family: "Arial", "Liberation Sans", "DejaVu Sans", "Bitstream Vera Sans", "Helvetica", sans-serif;
+	font-size: 9pt;
+}
+
+table#illulogi tr {
+	height    : 1.1em;
+	min-height: 1.1em;
+	max-height: 1.1em;
+}
+
+table#illulogi th,
+table#illulogi td {
+	width     : 1.1em;
+	height    : 1.1em;
+	min-width : 1.1em;
+	min-height: 1.1em;
+	max-width : 1.1em;
+	max-height: 1.1em;
+	padding: 0em;
+	line-height: 1em;
+	background-color: #fff;
+	text-align: center;
+	overflow: hidden;
+
+	border: #000 1px dotted;
+}
+
+table#illulogi td.space {
+	width : auto;
+	height: auto;
+	min-width : auto;
+	min-height: auto;
+	max-width : auto;
+	max-height: auto;
+	border-top:    hidden;
+	border-left:   hidden;
+	border-right:  #000 2px solid;
+	border-bottom: #000 2px solid;
+}
+
+table#illulogi td.pixel:nth-of-type(1) {
+	border-left:  #000 2px solid;
+}
+
+table#illulogi th.key:nth-of-type(5n),
+table#illulogi td.pixel:nth-of-type(5n) {
+	border-right:  #000 1px solid;
+}
+
+table#illulogi tbody:nth-child(2) {
+	border-top:  #000 2px solid;
+}
+
+table#illulogi tr:nth-child(5n) {
+	border-bottom:  #000 1px solid;
+}
+
+table#illulogi span.d1 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left : -100em;
+	margin-right: -100em;
+}
+
+table#illulogi span.d2 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left : -100em;
+	margin-right: -100em;
+	transform: scaleX(0.9); /* 1.8/2 */
+}
+
+table#illulogi span.d3 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left : -100em;
+	margin-right: -100em;
+	transform: scaleX(0.6); /* 1.8/3 */
+}
+
+table#illulogi span.d4 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left : -100em;
+	margin-right: -100em;
+	transform: scaleX(0.45); /* 1.8/4 */
+}
+
+table#illulogi span.d5 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left : -100em;
+	margin-right: -100em;
+	transform: scaleX(0.36); /* 1.8/5 */
+}
+
+table#illulogi span.d6 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left : -100em;
+	margin-right: -100em;
+	transform: scaleX(0.3); /* 1.8/6 */
+}
+
+table#illulogi td.unknown {
+	color: #fff;
+	background-color: #fff;
+}
+
+table#illulogi td.white {
+	color: #fc0;
+	background-color: #fc0;
+}
+
+table#illulogi td.black {
+	color: #000;
+	background-color: #000;
+}
+
+table#illulogi th.key:focus {
+	/* no appearance change */
+	outline: none;
+}
+
+table#illulogi th.focus {
+	background-color: #6ff;
+}
+
+table#illulogi th.editing {
+	color: #f03;
+	background-color: #6f3;
+}

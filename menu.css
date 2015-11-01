@@ -1,0 +1,11 @@
+form#menu {
+	line-height: 150%;
+	border-bottom: 1px #000 dashed;
+	padding-bottom: 0.25em;
+	margin-bottom: 0.25em;
+}
+
+form#menu button {
+	min-width : 5em;
+	min-height: 2em;
+}
