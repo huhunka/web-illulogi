@@ -1,5 +1,6 @@
 # web-illulogi
 An illust-logic solver on the web.
+https://huhunka.github.io/web-illulogi/
 
 This is an illust-logic solver that works on the web
 using client-side scripts only.  Originally, I wrote
